@@ -97,7 +97,7 @@ if symbol:
             risk_level = "🔴 High"
 
         # AI Price Prediction
-        prices = close_prices.values.reshape(-1, 1)
+        prices = close_prices.dropna().values.reshape(-1, 1)
 
         X = np.arange(len(prices)).reshape(-1, 1)
         y = prices
