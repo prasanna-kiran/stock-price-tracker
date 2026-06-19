@@ -1,0 +1,34 @@
+# AI-Powered Stock Market Intelligence Platform
+
+## Overview
+
+A real-time stock analytics dashboard built using Python, Streamlit, Yahoo Finance, and Plotly.
+
+## Features
+
+- Real-time stock price tracking
+- Candlestick chart visualization
+- RSI technical indicator
+- Buy/Sell/Hold recommendations
+- Portfolio profit/loss analysis
+- Multi-stock comparison
+- Company information
+- Latest stock news
+- Downloadable analysis reports
+
+## Tech Stack
+
+- Python
+- Streamlit
+- Plotly
+- Pandas
+- Yahoo Finance API
+- Feedparser
+
+## Installation
+
+pip install -r requirements.txt
+
+## Run
+
+streamlit run app.py
